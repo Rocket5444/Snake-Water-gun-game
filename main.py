@@ -16,7 +16,7 @@ def play_game():
     youstr = input("Enter your choice: ")
     you = youDict.get(youstr)
 
-    print(f"You chose {dict[you]}\nComputer chose {reverseDict[computer]}")
+    print(f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
 
 
     if(computer == you):
